@@ -1,0 +1,52 @@
+{
+  "@@last_modified": "2019-06-04T08:49:53.045544",
+  "title": "title",
+  "@title": {
+    "description": "Name of the tutorial",
+    "type": "text",
+    "placeholders": {}
+  },
+  "text": "You have pushed the button {counter} times:",
+  "@text": {
+    "description": "Our Text to localize",
+    "type": "text",
+    "placeholders": {
+      "counter": {}
+    }
+  },
+  "Login": "Login",
+  "@Login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "userName": "userName",
+  "@userName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mobileNumber": "mobileNumber",
+  "@mobileNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "msgWrongMobileNumber": "msgWrongMobileNumber",
+  "@msgWrongMobileNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pin": "pin",
+  "@pin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "rememberMe": "rememberMe",
+  "@rememberMe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "signUp": "Sign up",
+  "@signUp": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

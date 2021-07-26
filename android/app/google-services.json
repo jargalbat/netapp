@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "151644702339",
+    "firebase_url": "https://netware-2cb14.firebaseio.com",
+    "project_id": "netware-2cb14",
+    "storage_bucket": "netware-2cb14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151644702339:android:a08b1de1986a38ada2fdb6",
+        "android_client_info": {
+          "package_name": "mn.netcapital.netware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151644702339-lksajrvhnco8u26c2bo1d8c8k7svgocp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjf_7j4JbAGGfi7ILUqhRRFyenWZqhzh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151644702339-lksajrvhnco8u26c2bo1d8c8k7svgocp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

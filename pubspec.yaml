@@ -1,0 +1,129 @@
+name: netware
+description: Netware
+
+version: 1.0.8+11
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  #locale
+  intl: ^0.16.0
+
+  #theme
+  cupertino_icons: ^0.1.2
+  flutter_statusbarcolor: ^0.2.3
+
+  #cache
+  shared_preferences: ^0.5.6
+
+  #device
+  permission_handler: ^4.0.0 #permission
+  camera:
+    path: ./plugins/camera #custom code camera
+  path: ^1.6.4 #storage, file
+  path_provider: ^1.6.0 #storage, file
+  local_auth: ^0.6.1 #biometric
+  device_info: ^0.4.1+5 #device_id
+
+  #connection
+  dio: ^3.0.8
+  dio_cookie_manager: ^1.0.0
+  connectivity: ^0.4.8+6
+
+  #pattern
+  flutter_bloc: ^4.0.0
+  meta: ^1.1.6
+  equatable: ^1.0.0
+
+  #google services
+  firebase_core: ^0.4.0+9
+  firebase_messaging: ^6.0.2 #push notification
+  #firebase_analytics: ^5.0.2
+  #firebase_auth: ^0.14.0+5
+  #cloud_firestore: ^0.12.9+5
+  #firebase_crashlytics: ^0.1.2+3
+  location: ^2.3.5 #location
+  google_maps_flutter: ^0.5.22+2 #location
+
+  #facebook
+  flutter_facebook_login: ^3.0.0
+
+  #external
+  webview_flutter: ^0.3.22+1
+  url_launcher: ^5.4.10
+
+  #widgets
+  flutter_html: ^0.11.1 #term cond
+  code_input: ^1.0.3 #tan code
+  page_view_indicators: ^1.3.1 #dashboard cards
+  #  flip_card: ^0.4.4 #dashboard cards animation
+  expandable: ^4.1.2 #dashboard expandable
+
+  #story view
+  #  story_view: ^0.12.3
+  flutter_cache_manager: ^1.2.2
+  rxdart: ^0.24.0
+  video_player: ^0.10.9+1
+
+  #animation
+  simple_animations: ^1.3.4 #text animation welcome
+  circular_reveal_animation: ^1.1.5 #reveal animation login
+  #  animated_text_kit: ^2.0.0 #text animation welcome
+  angles: ^1.2.1 #animation success
+
+  #refresh
+  pull_to_refresh: ^1.5.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+    - assets/img/app/
+    - assets/img/bank/
+    - assets/img/splash/
+    - assets/img/camera/
+    - assets/img/circle_icons/
+    - assets/img/loan/
+    - assets/img/home/
+    - assets/img/net_point/
+    - assets/img/sign_up/
+    - assets/img/dialog/
+    - assets/img/intro/
+    - assets/img/settings/
+    - assets/img/splash/
+    - assets/img/story/
+    - assets/img/test/
+    - assets/img/button/
+    - assets/img/login/
+
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Ultralight.otf
+          weight: 100
+        - asset: assets/fonts/SF-Pro-Display-Thin.otf
+          weight: 200
+        - asset: assets/fonts/SF-Pro-Display-Light.otf
+          weight: 300
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SF-Pro-Display-Heavy.otf
+          weight: 800
+        - asset: assets/fonts/SF-Pro-Display-Black.otf
+          weight: 900

@@ -1,0 +1,52 @@
+{
+  "@@last_modified": "2019-06-04T08:49:53.045544",
+  "title": "title",
+  "@title": {
+    "description": "Name of the tutorial",
+    "type": "text",
+    "placeholders": {}
+  },
+  "text": "You have pushed the button {counter} times:",
+  "@text": {
+    "description": "Our Text to localize",
+    "type": "text",
+    "placeholders": {
+      "counter": {}
+    }
+  },
+  "Login": "Нэвтрэх",
+  "@Login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "userName": "Нэвтрэх нэр",
+  "@userName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mobileNumber": "Утасны дугаар",
+  "@mobileNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "msgWrongMobileNumber": "Буруу",
+  "@msgWrongMobileNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pin": "Пин код",
+  "@pin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "rememberMe": "Санах",
+  "@rememberMe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "signUp": "Бүртгүүлэх",
+  "@signUp": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
